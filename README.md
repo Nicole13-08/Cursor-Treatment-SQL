@@ -1,0 +1,2 @@
+# Cursor Practice Project
+This SQL procedure uses a cursor to handle missing transaction dates for customers as part of a practice exercise. The procedure first gathers existing transaction data for each customer and then identifies missing dates. It inserts new records with the same transaction amount for these missing days, although this logic is not accurate, as customers should not receive the same transaction amount for days they did not make transactions. This exercise primarily demonstrates cursor usage and does not reflect realistic transaction data handling.
